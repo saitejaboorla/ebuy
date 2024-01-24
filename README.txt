@@ -1,6 +1,6 @@
 Project: EBuy E-Commerce Website(for tribe and local business)
 
-ebuy is a fully functional eCommerce online system with its own ControlPanel which we have developed in 2021 for my mini Project.
+ebuy is a fully functional eCommerce online system with its own ControlPanel which we have developed in 2023 for my mini Project.
 
 About:
 
@@ -38,11 +38,3 @@ Contact Us Page
 Default Admin Access
 Username: admin
 Password: admin123
-
-
-contact:
-Neeraj, Anurag, pranav
-Mobile: +91 8142474849
-Email: cse18733025@gmail.com
-Address: Hyderabad, India
-Whatsapp: +91 8142474849
