@@ -1,0 +1,34 @@
+@startuml
+
+rectangle "User Interface" as UI
+rectangle "Product Catalog" as Catalog
+rectangle "Shopping Cart" as Cart
+rectangle "Payment Gateway" as Payment
+rectangle "Banking System" as Bank
+rectangle "Admin Interface" as AdminUI
+rectangle "Product Management" as ProductMgmt
+rectangle "Employee Management" as EmployeeMgmt
+rectangle "Warehouse Management" as WarehouseMgmt
+database "Database" as DB
+rectangle "Warehouse" as Warehouse
+
+UI --> Catalog
+UI --> Cart
+UI --> Payment
+Payment --> Bank
+AdminUI --> ProductMgmt
+AdminUI --> EmployeeMgmt
+AdminUI --> WarehouseMgmt
+ProductMgmt --> DB
+EmployeeMgmt --> DB
+WarehouseMgmt --> DB
+ProductMgmt --> WarehouseMgmt
+WarehouseMgmt --> Warehouse
+Cart --> Payment
+
+UI -- DB
+AdminUI -- DB
+Payment -- Bank
+DB -- Bank
+
+@enduml
